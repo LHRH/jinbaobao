@@ -108,7 +108,7 @@ function timeElapse(c) {
 
 	console.log('----------'+c);
     var nowtime = new Date();
-    var endtime = new Date("2020/9/30 23:59:59");
+    var endtime = new Date("2021/2/14 12:00:00");
     var lefttime = parseInt((endtime.getTime() - nowtime.getTime()) / 1000);
 
     var d = parseInt(lefttime / (24 * 60 * 60))
